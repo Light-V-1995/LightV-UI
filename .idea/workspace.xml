@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="第一个元素不需要 margin left -1px">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="安装 chai">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <workItem from="1639060666739" duration="142000" />
       <workItem from="1639060818077" duration="1744000" />
       <workItem from="1639062583463" duration="2999000" />
-      <workItem from="1639070237082" duration="11529000" />
+      <workItem from="1639070237082" duration="12296000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639086271972</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="安装 chai">
+      <created>1639086736932</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639086736932</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +200,7 @@
     <MESSAGE value="创建 button group" />
     <MESSAGE value="检测子元素是不是 button" />
     <MESSAGE value="第一个元素不需要 margin left -1px" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一个元素不需要 margin left -1px" />
+    <MESSAGE value="安装 chai" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装 chai" />
   </component>
 </project>
