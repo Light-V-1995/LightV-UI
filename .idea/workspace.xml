@@ -1,42 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="完成按钮基本样式">
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/02/e6c131ed26e671cb2afa4e893adbbc.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/09/a699694b155e949b8a6d9f7cf247c2.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/12/410291439d62e2c6b2b21253fd812e.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/13/5af26b3ba4a1a3800ac6c0265070e9.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/1b/63d87e917f2ccff8bb5bf7f0c2418c.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/21/4ec283906e203da784fe6d7f77cb40.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/31/9716598334f38c271182341fa955cc.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/3d/b423aed44d6a752bd492aad1cc654f.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/4c/a226c69c8e384de66e5de1068aeb4b.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/53/d2a12aa4acb1fb5765db06e566a7bb.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/5e/90f25b579cc49b9f8ac98f49310583.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/5f/fb64f90e2b68f08e064621288173c7.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/6d/232832efd87008e888766095c18597.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/80/2cf57f9b2322d6e900a88a38968127.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/81/7f8585de813cc7c6e4a3d6c5d52bf4.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/8a/493045354dfdade0df5c23370265c2.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/8e/c07a654d879abaad3fd661032e6a53.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/be/734d556164cf10f6ed9b4e6f97beb5.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/c9/ab35d7c240f2079ec500449ca68969.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/cf/be0180d7cfc7fa8ce60997218b481e.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/d4/0c57eb52d5fa302b7372efaa96c7ad.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/da/5fb233d55f7322a0503f6a98249bfa.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/dd/1c98a612a7cf8cc5606ace5d757240.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/e3/91d5eb368ae1167bf0abe9888f2973.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/f8/b2071a0498f73068278f15a68d5cb8.blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.parcel-cache/fb/e562ae81b8c8c544d49bd06a0fc1ba.v8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="加上 parcel，写出 button.vue">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +53,7 @@
       <workItem from="1639060666739" duration="142000" />
       <workItem from="1639060818077" duration="1744000" />
       <workItem from="1639062583463" duration="2999000" />
-      <workItem from="1639070237082" duration="4875000" />
+      <workItem from="1639070237082" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -117,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639077155977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="加上 parcel，写出 button.vue">
+      <created>1639079634201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639079634201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +112,7 @@
     <MESSAGE value="安装 parcel" />
     <MESSAGE value="安装 node-sass" />
     <MESSAGE value="完成按钮基本样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成按钮基本样式" />
+    <MESSAGE value="加上 parcel，写出 button.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="加上 parcel，写出 button.vue" />
   </component>
 </project>
