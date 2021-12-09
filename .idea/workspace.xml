@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="更新 button 里面 icon 的样式">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加 loading">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -56,7 +56,7 @@
       <workItem from="1639060666739" duration="142000" />
       <workItem from="1639060818077" duration="1744000" />
       <workItem from="1639062583463" duration="2999000" />
-      <workItem from="1639070237082" duration="8856000" />
+      <workItem from="1639070237082" duration="9691000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639083685245</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加 loading">
+      <created>1639084067527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639084067527</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +162,7 @@
     <MESSAGE value="验证 iconPosition 为 'left' 或 'right'" />
     <MESSAGE value="将 svg 代码整理到 icon.vue" />
     <MESSAGE value="更新 button 里面 icon 的样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 button 里面 icon 的样式" />
+    <MESSAGE value="添加 loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 loading" />
   </component>
 </project>
