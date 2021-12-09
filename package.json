@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Light-V-1995/LightV-UI/issues"
   },
-  "homepage": "https://github.com/Light-V-1995/LightV-UI#readme"
+  "homepage": "https://github.com/Light-V-1995/LightV-UI#readme",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
