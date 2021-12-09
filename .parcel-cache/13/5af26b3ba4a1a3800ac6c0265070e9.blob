@@ -1,0 +1,9 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _vue = require("vue");
+var _vueDefault = parcelHelpers.interopDefault(_vue);
+new _vueDefault.default({
+    el: 'app',
+    data: {
+        msg: 'hi'
+    }
+});
