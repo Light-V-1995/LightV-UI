@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加 icon 和 iconPosition 属性">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="验证 iconPosition 为 'left' 或 'right'">
+      <change afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +58,7 @@
       <workItem from="1639060666739" duration="142000" />
       <workItem from="1639060818077" duration="1744000" />
       <workItem from="1639062583463" duration="2999000" />
-      <workItem from="1639070237082" duration="7842000" />
+      <workItem from="1639070237082" duration="8435000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639082753577</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="验证 iconPosition 为 'left' 或 'right'">
+      <created>1639083047460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639083047461</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +140,7 @@
     <MESSAGE value="完成按钮基本样式" />
     <MESSAGE value="加上 parcel，写出 button.vue" />
     <MESSAGE value="添加 icon 和 iconPosition 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 icon 和 iconPosition 属性" />
+    <MESSAGE value="验证 iconPosition 为 'left' 或 'right'" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证 iconPosition 为 'left' 或 'right'" />
   </component>
 </project>
