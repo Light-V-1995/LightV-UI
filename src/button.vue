@@ -78,7 +78,7 @@ export default {
       order: 1
     }
   }
-  .loading{
+  .loading {
     animation: spin 2s infinite linear;
   }
 }
