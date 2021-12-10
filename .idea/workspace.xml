@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="用 TravisCI 持续集成（TravisCI收费了）">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="准备 publish 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,7 @@
       <workItem from="1639070237082" duration="19106000" />
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
-      <workItem from="1639140737371" duration="3520000" />
+      <workItem from="1639140737371" duration="4836000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -250,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639143307142</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="准备 publish">
+      <created>1639145669500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1639145669500</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +294,8 @@
     <MESSAGE value="接入 travis" />
     <MESSAGE value="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试" />
     <MESSAGE value="用 TravisCI 持续集成（TravisCI收费了）" />
-    <option name="LAST_COMMIT_MESSAGE" value="用 TravisCI 持续集成（TravisCI收费了）" />
+    <MESSAGE value="准备 publish" />
+    <MESSAGE value="准备 publish 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="准备 publish 2" />
   </component>
 </project>
