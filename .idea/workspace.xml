@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="准备 publish 2">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="npm publish 0.0.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -92,7 +92,7 @@
       <workItem from="1639070237082" duration="19106000" />
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
-      <workItem from="1639140737371" duration="4836000" />
+      <workItem from="1639140737371" duration="6703000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -296,6 +296,7 @@
     <MESSAGE value="用 TravisCI 持续集成（TravisCI收费了）" />
     <MESSAGE value="准备 publish" />
     <MESSAGE value="准备 publish 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="准备 publish 2" />
+    <MESSAGE value="npm publish 0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm publish 0.0.2" />
   </component>
 </project>
