@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - '14'
-  - '15'
-  - '16'
+  - "14"
+  - "15"
+  - "16"
 addons:
   chrome: stable
 sudo: required

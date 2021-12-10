@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="接入 travis">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/button.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +91,7 @@
       <workItem from="1639070237082" duration="19106000" />
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
+      <workItem from="1639140737371" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -237,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639097785106</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试">
+      <created>1639140966041</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1639140966041</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +277,7 @@
     <MESSAGE value="使用 chai.spy 监听回调函数" />
     <MESSAGE value="自动化测试" />
     <MESSAGE value="接入 travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="接入 travis" />
+    <MESSAGE value="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试" />
   </component>
 </project>
