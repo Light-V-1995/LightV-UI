@@ -11,8 +11,12 @@
 </template>
 
 <script>
+import Icon from "./icon";
 export default {
   // props: ['icon', 'iconPosition']
+  components:{
+    'l-button':Icon
+  },
   props:{
     icon:{},
     loading: {
