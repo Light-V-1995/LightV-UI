@@ -1,5 +1,5 @@
 {
-  "name": "lightv-ui",
+  "name": "lightv-ui-1-1",
   "version": "0.0.1",
   "description": "这是一个UI框架",
   "main": "index.js",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Light-V-1995/LightV-UI#readme",
   "dependencies": {
     "node-sass": "^7.0.0",
+    "user": "0.0.0",
     "vue": "^2.6.14",
     "vue-hot-reload-api": "^2.3.4"
   },
