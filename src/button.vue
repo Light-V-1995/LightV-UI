@@ -15,7 +15,7 @@ import Icon from "./icon";
 export default {
   // props: ['icon', 'iconPosition']
   components:{
-    'l-button':Icon
+    'l-icon':Icon
   },
   props:{
     icon:{},

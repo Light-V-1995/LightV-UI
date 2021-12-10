@@ -22,6 +22,7 @@ import spies from 'chai-spies'
 chai.use(spies)
 
 const expect = chai.expect
+
 try {
 
     // 单元测试
@@ -106,7 +107,7 @@ try {
 } catch (error) {
     window.errors = [error]
 } finally {
-    window.errors.forEach((error) => {
+    window.errors && window.errors.forEach((error) => {
         console.error(error.message)
     })
 }

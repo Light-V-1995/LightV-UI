@@ -1,13 +1,15 @@
-const expect = chai.expect;
+import {describe} from 'mocha'
+
+const expect = chai.expect
 import Vue from 'vue'
-import Button from '../src/button'
+import Button from '../src/Button.vue'
 
 Vue.config.productionTip = false
 Vue.config.devtools = false
 
 describe('Button', () => {
     it('存在.', () => {
-        expect(Button).to.be.ok
+        expect(Button).to.exist
     })
     it('可以设置icon.', () => {
         const Constructor = Vue.extend(Button)
@@ -70,7 +72,7 @@ describe('Button', () => {
             }
         }).$mount()
 
-        const callback = sinon.fake();
+        const callback = sinon.fake()
         vm.$on('click', callback)
         vm.$el.click()
         expect(callback).to.have.been.called
