@@ -32,24 +32,44 @@
             font-size: var(--font-size);
         }
     </style>
+    <style>
+        .box{
+            margin: 20px;
+        }
+    </style>
 
 </head>
 <body>
 <div id="app">
-    <l-button :loading="loading1" @click="loading1 = !loading1">
-        按钮
-    </l-button>
-    <l-button icon="settings" :loading="loading2"  @click="loading2 = !loading2">
-        按钮
-    </l-button>
-    <l-button icon="settings" icon-position="right" :loading="loading3"  @click="loading3 = !loading3">
-        按钮
-    </l-button>
-    <l-button-group>
-        <l-button icon="left">上一页</l-button>
-        <l-button>更多</l-button>
-        <l-button icon="right" icon-position="right">下一页</l-button>
-    </l-button-group>
+    <div class="box">
+        <l-input value="张三" disabled></l-input>
+        <l-input value="李四" readonly></l-input>
+        <l-input value="王五"></l-input>
+    </div>
+    <div class="box">
+        <l-input value="王" error="姓名不能少于两个字"></l-input>
+    </div>
+    <l-input v-model="message"></l-input>
+    <p>{{message}}</p>
+    <button @click="message+=1">+1</button>
+    <div class="box">
+        <l-button :loading="loading1" @click="loading1 = !loading1">
+            按钮
+        </l-button>
+        <l-button icon="settings" :loading="loading2"
+                  @click="loading2 = !loading2">
+            按钮
+        </l-button>
+        <l-button icon="settings" icon-position="right" :loading="loading3"
+                  @click="loading3 = !loading3">
+            按钮
+        </l-button>
+        <l-button-group>
+            <l-button icon="left">上一页</l-button>
+            <l-button>更多</l-button>
+            <l-button icon="right" icon-position="right">下一页</l-button>
+        </l-button-group>
+    </div>
 
 </div>
 

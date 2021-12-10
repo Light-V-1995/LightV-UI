@@ -5,6 +5,7 @@
 </template>
 <script>
 export default {
+  name: 'L-ButtonGroup',
   mounted () {
     for (let node of this.$el.children) {
       let name = node.nodeName.toLowerCase()
@@ -15,7 +16,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .l-button-group {
   display: inline-flex;
   vertical-align: middle;

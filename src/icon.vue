@@ -8,9 +8,10 @@
 import './svg'
 
 export default {
+  name:'L-Icon',
   props: ['name']
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .l-icon {width: 1em; height: 1em; }
 </style>
