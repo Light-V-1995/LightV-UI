@@ -60,13 +60,17 @@
     <div style="overflow: hidden; padding-top: 150px; padding-bottom: 40px">
         <l-popover position="top">
             <template slot="content">
-                <div>hello</div>
+                <div>popover内容
+                    <l-button>关闭</l-button>
+                </div>
             </template>
             <l-button>上</l-button>
         </l-popover>
         <l-popover position="bottom">
-            <template slot="content">
-                <div>hello</div>
+            <template slot="content" slot-scope="{close}">
+                <div>文字</div>
+                <div>popover <a href="http://qq.com">看新网</a> 内容</div>
+                <l-button @click="close">关闭</l-button>
             </template>
             <l-button>下</l-button>
         </l-popover>
@@ -78,7 +82,7 @@
         </l-popover>
         <l-popover position="right">
             <template slot="content">
-                <div>hello</div>
+                <div>popover <a href="http://qq.com">看新网</a> 内容</div>
             </template>
             <l-button>右</l-button>
         </l-popover>

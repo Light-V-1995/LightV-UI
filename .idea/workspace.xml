@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="支持悬浮触发 popover">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="解决抖动 bug">
       <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,14 +93,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="13285000" />
-    </task>
-    <task id="LOCAL-00021" summary="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试">
-      <created>1639140966041</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1639140966041</updated>
+      <workItem from="1639236332798" duration="13612000" />
     </task>
     <task id="LOCAL-00022" summary="用 TravisCI 持续集成（TravisCI收费了）">
       <created>1639143307142</created>
@@ -438,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639253827395</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="解决抖动 bug">
+      <created>1639254192448</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1639254192448</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现 position: top/bottom/middle 功能" />
     <MESSAGE value="实现了只能有一个 toast 的功能" />
     <MESSAGE value="解决 currentToast 的一个 bug" />
     <MESSAGE value="实现进入动画" />
@@ -481,6 +480,7 @@
     <MESSAGE value="popover 弹出位置四个方向" />
     <MESSAGE value="popover 重构" />
     <MESSAGE value="支持悬浮触发 popover" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持悬浮触发 popover" />
+    <MESSAGE value="解决抖动 bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决抖动 bug" />
   </component>
 </project>
