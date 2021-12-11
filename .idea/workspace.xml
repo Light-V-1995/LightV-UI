@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="可以设置默认 selected" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="selected 改为数组">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,14 +95,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="16035000" />
-    </task>
-    <task id="LOCAL-00028" summary="让 input 支持 v-model 双向绑定">
-      <created>1639158400455</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1639158400455</updated>
+      <workItem from="1639236332798" duration="16930000" />
     </task>
     <task id="LOCAL-00029" summary="row 和 col 的雏形">
       <created>1639161178888</created>
@@ -436,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639256128690</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="selected 改为数组">
+      <created>1639256994404</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1639256994404</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 tabs 相关组件，添加基本 props" />
     <MESSAGE value="tabs 可以切换了" />
     <MESSAGE value="删掉测试代码" />
     <MESSAGE value="增大tab item可点击区域" />
@@ -479,6 +482,7 @@
     <MESSAGE value="collapse 基本样式和基本功能完成" />
     <MESSAGE value="添加 single 选项" />
     <MESSAGE value="可以设置默认 selected" />
-    <option name="LAST_COMMIT_MESSAGE" value="可以设置默认 selected" />
+    <MESSAGE value="selected 改为数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="selected 改为数组" />
   </component>
 </project>
