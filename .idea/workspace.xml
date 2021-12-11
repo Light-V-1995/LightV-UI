@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="layout 基本功能完成">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加简单动画">
+      <change afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="3179000" />
+      <workItem from="1639236332798" duration="4911000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639238843661</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="添加简单动画">
+      <created>1639239651738</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1639239651738</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="检测子元素是不是 button" />
     <MESSAGE value="第一个元素不需要 margin left -1px" />
     <MESSAGE value="安装 chai" />
     <MESSAGE value="使用 chai.expect 添加四个测试用例，第五个不会" />
@@ -421,6 +428,7 @@
     <MESSAGE value="添加 row 的测试用例" />
     <MESSAGE value="添加 col 的测试用例;添加 layout header content footer 组件" />
     <MESSAGE value="layout 基本功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout 基本功能完成" />
+    <MESSAGE value="添加简单动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加简单动画" />
   </component>
 </project>
