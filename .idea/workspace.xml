@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加 tabs 部分测试用例">
-      <change afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="实现最简单的 popover">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,21 +95,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="10350000" />
-    </task>
-    <task id="LOCAL-00011" summary="添加 loading">
-      <created>1639084067527</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1639084067527</updated>
-    </task>
-    <task id="LOCAL-00012" summary="添加 click 事件">
-      <created>1639085037212</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1639085037212</updated>
+      <workItem from="1639236332798" duration="11314000" />
     </task>
     <task id="LOCAL-00013" summary="创建 button group">
       <created>1639085775885</created>
@@ -438,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639246966816</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="创建 popover 组件">
+      <created>1639247100580</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1639247100580</updated>
+    </task>
+    <task id="LOCAL-00061" summary="实现最简单的 popover">
+      <created>1639247228275</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1639247228275</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,8 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="设置默认样式为 phone" />
-    <MESSAGE value="响应式基本完成 mobil first" />
     <MESSAGE value="简单重构" />
     <MESSAGE value="添加 row 的测试用例" />
     <MESSAGE value="添加 col 的测试用例;添加 layout header content footer 组件" />
@@ -481,6 +481,8 @@
     <MESSAGE value="完善tabs的样式" />
     <MESSAGE value="支持 disabled 功能" />
     <MESSAGE value="添加 tabs 部分测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 tabs 部分测试用例" />
+    <MESSAGE value="创建 popover 组件" />
+    <MESSAGE value="实现最简单的 popover" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现最简单的 popover" />
   </component>
 </project>
