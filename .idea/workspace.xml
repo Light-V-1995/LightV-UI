@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="触发 update:selected 事件的时候添加一个 item 数据">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="完善tabs的样式">
+      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,21 +93,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="9523000" />
-    </task>
-    <task id="LOCAL-00007" summary="添加 icon 和 iconPosition 属性">
-      <created>1639082753577</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1639082753577</updated>
-    </task>
-    <task id="LOCAL-00008" summary="验证 iconPosition 为 'left' 或 'right'">
-      <created>1639083047460</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1639083047461</updated>
+      <workItem from="1639236332798" duration="9715000" />
     </task>
     <task id="LOCAL-00009" summary="将 svg 代码整理到 icon.vue">
       <created>1639083564293</created>
@@ -439,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639245580469</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="tab 切换动画完成">
+      <created>1639246169720</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1639246169720</updated>
+    </task>
+    <task id="LOCAL-00057" summary="完善tabs的样式">
+      <created>1639246256536</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1639246256536</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,8 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="row 和 col 的雏形" />
-    <MESSAGE value="基本实现 row 和 col 的功能" />
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
     <MESSAGE value="初步实现响应式" />
     <MESSAGE value="设置默认样式为 phone" />
@@ -482,6 +479,8 @@
     <MESSAGE value="删掉测试代码" />
     <MESSAGE value="增大tab item可点击区域" />
     <MESSAGE value="触发 update:selected 事件的时候添加一个 item 数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="触发 update:selected 事件的时候添加一个 item 数据" />
+    <MESSAGE value="tab 切换动画完成" />
+    <MESSAGE value="完善tabs的样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善tabs的样式" />
   </component>
 </project>
