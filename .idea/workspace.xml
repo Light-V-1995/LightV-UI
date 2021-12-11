@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加默认样式">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="popover 重构">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
@@ -94,21 +94,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="12772000" />
-    </task>
-    <task id="LOCAL-00018" summary="使用 chai.spy 监听回调函数">
-      <created>1639088006117</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1639088006117</updated>
-    </task>
-    <task id="LOCAL-00019" summary="自动化测试">
-      <created>1639097415413</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1639097415413</updated>
+      <workItem from="1639236332798" duration="13071000" />
     </task>
     <task id="LOCAL-00020" summary="接入 travis">
       <created>1639097785106</created>
@@ -439,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639253139661</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="popover 弹出位置四个方向">
+      <created>1639253475241</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1639253475241</updated>
+    </task>
+    <task id="LOCAL-00068" summary="popover 重构">
+      <created>1639253551272</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1639253551272</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,8 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加简单动画" />
-    <MESSAGE value="添加 toast 和 plugin" />
     <MESSAGE value="实现 autoClose closeButton enableHtml 多行文字 等功能" />
     <MESSAGE value="实现 position: top/bottom/middle 功能" />
     <MESSAGE value="实现了只能有一个 toast 的功能" />
@@ -482,6 +480,8 @@
     <MESSAGE value="基本完成 popover 内容" />
     <MESSAGE value="重构 tabs.vue" />
     <MESSAGE value="添加默认样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加默认样式" />
+    <MESSAGE value="popover 弹出位置四个方向" />
+    <MESSAGE value="popover 重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="popover 重构" />
   </component>
 </project>
