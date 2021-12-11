@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="简单重构">
-      <change afterPath="$PROJECT_DIR$/test/row.test.js" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加 row 的测试用例">
+      <change afterPath="$PROJECT_DIR$/src/content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/col.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +96,8 @@
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
-      <workItem from="1639197430784" duration="5323000" />
+      <workItem from="1639197430784" duration="6199000" />
+      <workItem from="1639236332798" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -347,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639201725876</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="添加 row 的测试用例">
+      <created>1639204814366</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1639204814366</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 loading" />
     <MESSAGE value="添加 click 事件" />
     <MESSAGE value="创建 button group" />
     <MESSAGE value="检测子元素是不是 button" />
@@ -390,6 +400,7 @@
     <MESSAGE value="设置默认样式为 phone" />
     <MESSAGE value="响应式基本完成 mobil first" />
     <MESSAGE value="简单重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单重构" />
+    <MESSAGE value="添加 row 的测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 row 的测试用例" />
   </component>
 </project>
