@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="重构 tabs.vue">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加默认样式">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
@@ -94,14 +94,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="12461000" />
-    </task>
-    <task id="LOCAL-00017" summary="使用 chai.expect 添加四个测试用例，第五个不会">
-      <created>1639087656185</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1639087656185</updated>
+      <workItem from="1639236332798" duration="12772000" />
     </task>
     <task id="LOCAL-00018" summary="使用 chai.spy 监听回调函数">
       <created>1639088006117</created>
@@ -439,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639252907096</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="添加默认样式">
+      <created>1639253139661</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1639253139661</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="layout 基本功能完成" />
     <MESSAGE value="添加简单动画" />
     <MESSAGE value="添加 toast 和 plugin" />
     <MESSAGE value="实现 autoClose closeButton enableHtml 多行文字 等功能" />
@@ -482,6 +481,7 @@
     <MESSAGE value="解决当容器有 overflow hidden 造成的 bug" />
     <MESSAGE value="基本完成 popover 内容" />
     <MESSAGE value="重构 tabs.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构 tabs.vue" />
+    <MESSAGE value="添加默认样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加默认样式" />
   </component>
 </project>
