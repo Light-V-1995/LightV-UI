@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="设置默认样式为 phone">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="响应式基本完成 mobil first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
@@ -94,7 +94,7 @@
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
-      <workItem from="1639197430784" duration="3176000" />
+      <workItem from="1639197430784" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -334,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639199615094</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="响应式基本完成 mobil first">
+      <created>1639200699637</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1639200699637</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新 button 里面 icon 的样式" />
     <MESSAGE value="添加 loading" />
     <MESSAGE value="添加 click 事件" />
     <MESSAGE value="创建 button group" />
@@ -377,6 +383,7 @@
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
     <MESSAGE value="初步实现响应式" />
     <MESSAGE value="设置默认样式为 phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置默认样式为 phone" />
+    <MESSAGE value="响应式基本完成 mobil first" />
+    <option name="LAST_COMMIT_MESSAGE" value="响应式基本完成 mobil first" />
   </component>
 </project>
