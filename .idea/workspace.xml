@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="基本实现 row 和 col 的功能">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加 row 的 align=left/right/center 属性">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
     </list>
@@ -93,7 +94,8 @@
       <workItem from="1639070237082" duration="19106000" />
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
-      <workItem from="1639140737371" duration="17732000" />
+      <workItem from="1639140737371" duration="19780000" />
+      <workItem from="1639197430784" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -305,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639163164149</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="简单重构">
+      <created>1639167460301</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1639167460301</updated>
+    </task>
+    <task id="LOCAL-00032" summary="添加 row 的 align=left/right/center 属性">
+      <created>1639167715496</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1639167715496</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,8 +339,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="加上 parcel，写出 button.vue" />
-    <MESSAGE value="添加 icon 和 iconPosition 属性" />
     <MESSAGE value="验证 iconPosition 为 'left' 或 'right'" />
     <MESSAGE value="将 svg 代码整理到 icon.vue" />
     <MESSAGE value="更新 button 里面 icon 的样式" />
@@ -348,6 +362,8 @@
     <MESSAGE value="让 input 支持 v-model 双向绑定" />
     <MESSAGE value="row 和 col 的雏形" />
     <MESSAGE value="基本实现 row 和 col 的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本实现 row 和 col 的功能" />
+    <MESSAGE value="简单重构" />
+    <MESSAGE value="添加 row 的 align=left/right/center 属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 row 的 align=left/right/center 属性" />
   </component>
 </project>
