@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="基本完成 popover 内容">
-      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="重构 tabs.vue">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,21 +94,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="12145000" />
-    </task>
-    <task id="LOCAL-00015" summary="第一个元素不需要 margin left -1px">
-      <created>1639086271972</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1639086271972</updated>
-    </task>
-    <task id="LOCAL-00016" summary="安装 chai">
-      <created>1639086736932</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1639086736932</updated>
+      <workItem from="1639236332798" duration="12461000" />
     </task>
     <task id="LOCAL-00017" summary="使用 chai.expect 添加四个测试用例，第五个不会">
       <created>1639087656185</created>
@@ -438,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639252709557</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="重构 tabs.vue">
+      <created>1639252844462</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1639252844462</updated>
+    </task>
+    <task id="LOCAL-00065" summary="重构 tabs.vue">
+      <created>1639252907096</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1639252907096</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 col 的测试用例;添加 layout header content footer 组件" />
     <MESSAGE value="layout 基本功能完成" />
     <MESSAGE value="添加简单动画" />
     <MESSAGE value="添加 toast 和 plugin" />
@@ -481,6 +481,7 @@
     <MESSAGE value="实现最简单的 popover" />
     <MESSAGE value="解决当容器有 overflow hidden 造成的 bug" />
     <MESSAGE value="基本完成 popover 内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成 popover 内容" />
+    <MESSAGE value="重构 tabs.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构 tabs.vue" />
   </component>
 </project>
