@@ -25,23 +25,17 @@
         }
 
         #app {
-            margin: 20px;
         }
 
         body {
             font-size: var(--font-size);
         }
     </style>
-    <style>
-        .box{
-            margin: 20px;
-        }
-    </style>
+
     <style>
         .demo {
-            background: #ddd;
             border: 1px solid #666;
-            height: 100px;
+            min-height: 100px;
         }
     </style>
 
@@ -52,6 +46,18 @@
 
 <div id="app">
 
+    <l-layout style="height: 100vh;">
+
+        <l-header class="demo">header</l-header>
+        <l-layout>
+            <l-sider class="demo">sider</l-sider>
+            <l-content class="demo">content</l-content>
+
+        </l-layout>
+        <l-footer class="demo">footer</l-footer>
+    </l-layout>
+
+    <hr>
     <l-row>
         <l-col span="12" offset="12" :narrow-pc="{span:9,offset:3}" :wide-pc="{span:5,offset:1}">
             <div class="demo"></div>
