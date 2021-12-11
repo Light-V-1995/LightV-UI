@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="popover 重构">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="支持悬浮触发 popover">
       <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,14 +93,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="13071000" />
-    </task>
-    <task id="LOCAL-00020" summary="接入 travis">
-      <created>1639097785106</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1639097785106</updated>
+      <workItem from="1639236332798" duration="13285000" />
     </task>
     <task id="LOCAL-00021" summary="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试">
       <created>1639140966041</created>
@@ -439,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639253551272</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="支持悬浮触发 popover">
+      <created>1639253827395</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1639253827395</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现 autoClose closeButton enableHtml 多行文字 等功能" />
     <MESSAGE value="实现 position: top/bottom/middle 功能" />
     <MESSAGE value="实现了只能有一个 toast 的功能" />
     <MESSAGE value="解决 currentToast 的一个 bug" />
@@ -482,6 +480,7 @@
     <MESSAGE value="添加默认样式" />
     <MESSAGE value="popover 弹出位置四个方向" />
     <MESSAGE value="popover 重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="popover 重构" />
+    <MESSAGE value="支持悬浮触发 popover" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持悬浮触发 popover" />
   </component>
 </project>
