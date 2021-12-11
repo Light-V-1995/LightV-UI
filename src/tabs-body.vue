@@ -5,7 +5,10 @@
 </template>
 <script>
 export default {
-  name: 'L-TabsBody'
+  name: 'L-TabsBody',
+  inject: ['eventBus'],
+  created(){
+  }
 }
 </script>
 <style>

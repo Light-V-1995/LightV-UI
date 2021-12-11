@@ -56,7 +56,7 @@
 
 
 <div id="app">
-    <l-tabs :selected.sync="selectedTab" >
+    <l-tabs :selected.sync="selectedTab" @update:selected="yyy">
         <l-tabs-head>
             <template slot="actions">
                 <button>设置</button>
