@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="实现了只能有一个 toast 的功能">
-      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="解决 currentToast 的一个 bug">
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="6152000" />
+      <workItem from="1639236332798" duration="6266000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -411,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639242692685</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="解决 currentToast 的一个 bug">
+      <created>1639242786393</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1639242786393</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="自动化测试" />
     <MESSAGE value="接入 travis" />
     <MESSAGE value="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试" />
     <MESSAGE value="用 TravisCI 持续集成（TravisCI收费了）" />
@@ -454,6 +460,7 @@
     <MESSAGE value="实现 autoClose closeButton enableHtml 多行文字 等功能" />
     <MESSAGE value="实现 position: top/bottom/middle 功能" />
     <MESSAGE value="实现了只能有一个 toast 的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了只能有一个 toast 的功能" />
+    <MESSAGE value="解决 currentToast 的一个 bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决 currentToast 的一个 bug" />
   </component>
 </project>
