@@ -33,9 +33,20 @@
     </style>
 
     <style>
-        .demo {
-            border: 1px solid #666;
-            min-height: 100px;
+        .sider {
+            background: #333;
+            width: 150px;
+        }
+        .sider.slide-enter, .sider.slide-leave-to {
+            margin-left: -150px;
+        }
+        .header {
+            background: #999;
+            height: 100px;
+        }
+        .footer {
+            background: #ccc;
+            height: 50px;
         }
     </style>
 
@@ -47,14 +58,13 @@
 <div id="app">
 
     <l-layout style="height: 100vh;">
+        <l-sider class="demo">sider</l-sider>
 
-        <l-header class="demo">header</l-header>
         <l-layout>
-            <l-sider class="demo">sider</l-sider>
+            <l-header class="demo">header</l-header>
             <l-content class="demo">content</l-content>
-
+            <l-footer class="demo">footer</l-footer>
         </l-layout>
-        <l-footer class="demo">footer</l-footer>
     </l-layout>
 
     <hr>
