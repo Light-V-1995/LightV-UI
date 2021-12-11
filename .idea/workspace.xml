@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="支持 disabled 功能">
-      <change afterPath="$PROJECT_DIR$/test/tabs-body.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-head.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-item.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-pane.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs.test.js" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="添加 tabs 部分测试用例">
+      <change afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +93,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="10024000" />
-    </task>
-    <task id="LOCAL-00010" summary="更新 button 里面 icon 的样式">
-      <created>1639083685245</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1639083685245</updated>
+      <workItem from="1639236332798" duration="10350000" />
     </task>
     <task id="LOCAL-00011" summary="添加 loading">
       <created>1639084067527</created>
@@ -442,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639246396105</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="添加 tabs 部分测试用例">
+      <created>1639246966816</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1639246966816</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初步实现响应式" />
     <MESSAGE value="设置默认样式为 phone" />
     <MESSAGE value="响应式基本完成 mobil first" />
     <MESSAGE value="简单重构" />
@@ -485,6 +480,7 @@
     <MESSAGE value="tab 切换动画完成" />
     <MESSAGE value="完善tabs的样式" />
     <MESSAGE value="支持 disabled 功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持 disabled 功能" />
+    <MESSAGE value="添加 tabs 部分测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 tabs 部分测试用例" />
   </component>
 </project>

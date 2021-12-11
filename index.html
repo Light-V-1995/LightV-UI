@@ -55,37 +55,20 @@
 
 
 
-<div id="app">
-    <l-tabs>
-        <div>hi</div>
-    </l-tabs>
-    <l-tabs :selected.sync="selectedTab" @update:selected="yyy">
-        <l-tabs-head>
-            <template slot="actions">
-                <button>设置</button>
-            </template>
-            <l-tabs-item name="woman" disabled>
-                <l-icon name="settings"></l-icon>美女
-            </l-tabs-item>
-            <l-tabs-item name="finance" >
-                财经
-            </l-tabs-item>
-            <l-tabs-item name="sports">
-                体育
-            </l-tabs-item>
-        </l-tabs-head>
-        <l-tabs-body>
-            <l-tabs-pane name="woman">
-                美女相关资讯
-            </l-tabs-pane>
-            <l-tabs-pane name="finance">
-                财经相关资讯
-            </l-tabs-pane>
-            <l-tabs-pane name="sports">
-                体育相关资讯
-            </l-tabs-pane>
-        </l-tabs-body>
-    </l-tabs>
+<div id="app" style="padding-top: 100px; padding-left: 100px;">
+
+    <l-popover>
+        <template slot="content">
+            <div>popover内容</div>
+        </template>
+        <button>点我</button>
+    </l-popover>
+    <l-popover>
+        <template slot="content">
+            <div>popover内容</div>
+        </template>
+        <button>点我</button>
+    </l-popover>
 
 </div>
 
