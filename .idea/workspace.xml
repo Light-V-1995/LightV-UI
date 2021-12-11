@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="删掉测试代码">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="增大tab item可点击区域">
       <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,14 +95,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="8588000" />
-    </task>
-    <task id="LOCAL-00005" summary="加上 parcel，写出 button.vue">
-      <created>1639079634201</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1639079634201</updated>
+      <workItem from="1639236332798" duration="8891000" />
     </task>
     <task id="LOCAL-00006" summary="加上 parcel，写出 button.vue">
       <created>1639079708733</created>
@@ -439,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639244984905</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="增大tab item可点击区域">
+      <created>1639245339238</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1639245339238</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="讲 iconfont.js 放到 icon.vue" />
     <MESSAGE value="让 input 支持 v-model 双向绑定" />
     <MESSAGE value="row 和 col 的雏形" />
     <MESSAGE value="基本实现 row 和 col 的功能" />
@@ -482,6 +482,7 @@
     <MESSAGE value="添加 tabs 相关组件，添加基本 props" />
     <MESSAGE value="tabs 可以切换了" />
     <MESSAGE value="删掉测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="删掉测试代码" />
+    <MESSAGE value="增大tab item可点击区域" />
+    <option name="LAST_COMMIT_MESSAGE" value="增大tab item可点击区域" />
   </component>
 </project>
