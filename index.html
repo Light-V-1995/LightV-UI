@@ -37,49 +37,41 @@
             margin: 20px;
         }
     </style>
+    <style>
+        .demo {
+            background: #ddd;
+            border: 1px solid #666;
+            height: 100px;
+        }
+    </style>
 
 </head>
 <body>
+
+
+
 <div id="app">
-    <div style="border: 1px solid black;">
 
-        <l-row gutter="20">
-            <l-col span="24"
-                   :ipad="{span:8}"
-                   :narrow-pc="{span:4}"
-                   :pc="{span:2}"
-                   :wide-pc="{span:1}"
-            >
-                1
-            </l-col>
-            <l-col span="24"
-                   :ipad="{span:16}"
-                   :narrow-pc="{span:20}"
-                   :pc="{span:22}"
-                   :wide-pc="{span:23}"
-            >11
-            </l-col>
-        </l-row>
-        <l-row gutter="20">
-            <l-col span="4">1</l-col>
-            <l-col span="20">11</l-col>
-        </l-row>
-        <l-row gutter="20">
-            <l-col span="4">1</l-col>
-            <l-col span="18" offset="2">11</l-col>
-        </l-row>
-        <l-row gutter="20">
-            <l-col span="4">1</l-col>
-            <l-col span="8" offset="2">11</l-col>
-            <l-col span="8" offset="2">11</l-col>
-        </l-row>
-        <l-row gutter="20">
-            <l-col span="4">1</l-col>
-            <l-col span="4" offset="6">11</l-col>
-            <l-col span="8" offset="2">11</l-col>
-        </l-row>
-
-    </div>
+    <l-row>
+        <l-col span="24" :narrow-pc="{span:8}">
+            <div class="demo"></div>
+        </l-col>
+        <l-col span="24" :narrow-pc="{span:8}">
+            <div class="demo"></div>
+        </l-col>
+        <l-col span="24" :narrow-pc="{span:8}">
+            <div class="demo"></div>
+        </l-col>
+        <l-col span="24" :narrow-pc="{span:8}">
+            <div class="demo"></div>
+        </l-col>
+        <l-col span="24" :narrow-pc="{span:8}">
+            <div class="demo"></div>
+        </l-col>
+        <l-col span="24" :narrow-pc="{span:8}">
+            <div class="demo"></div>
+        </l-col>
+    </l-row>
     <hr>
 
     <div class="box">
