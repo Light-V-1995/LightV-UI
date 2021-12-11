@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="增大tab item可点击区域">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="触发 update:selected 事件的时候添加一个 item 数据">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +94,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="8891000" />
-    </task>
-    <task id="LOCAL-00006" summary="加上 parcel，写出 button.vue">
-      <created>1639079708733</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1639079708733</updated>
+      <workItem from="1639236332798" duration="9523000" />
     </task>
     <task id="LOCAL-00007" summary="添加 icon 和 iconPosition 属性">
       <created>1639082753577</created>
@@ -440,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639245339238</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="触发 update:selected 事件的时候添加一个 item 数据">
+      <created>1639245580469</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1639245580469</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="让 input 支持 v-model 双向绑定" />
     <MESSAGE value="row 和 col 的雏形" />
     <MESSAGE value="基本实现 row 和 col 的功能" />
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
@@ -483,6 +481,7 @@
     <MESSAGE value="tabs 可以切换了" />
     <MESSAGE value="删掉测试代码" />
     <MESSAGE value="增大tab item可点击区域" />
-    <option name="LAST_COMMIT_MESSAGE" value="增大tab item可点击区域" />
+    <MESSAGE value="触发 update:selected 事件的时候添加一个 item 数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="触发 update:selected 事件的时候添加一个 item 数据" />
   </component>
 </project>
