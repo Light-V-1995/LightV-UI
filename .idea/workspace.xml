@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="响应式基本完成 mobil first">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="简单重构">
+      <change afterPath="$PROJECT_DIR$/test/row.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1639109965382" duration="1451000" />
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
-      <workItem from="1639197430784" duration="4223000" />
+      <workItem from="1639197430784" duration="5323000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -341,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639200699637</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="简单重构">
+      <created>1639201725876</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1639201725876</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,11 +385,11 @@
     <MESSAGE value="让 input 支持 v-model 双向绑定" />
     <MESSAGE value="row 和 col 的雏形" />
     <MESSAGE value="基本实现 row 和 col 的功能" />
-    <MESSAGE value="简单重构" />
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
     <MESSAGE value="初步实现响应式" />
     <MESSAGE value="设置默认样式为 phone" />
     <MESSAGE value="响应式基本完成 mobil first" />
-    <option name="LAST_COMMIT_MESSAGE" value="响应式基本完成 mobil first" />
+    <MESSAGE value="简单重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单重构" />
   </component>
 </project>
