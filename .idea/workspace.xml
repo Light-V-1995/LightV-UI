@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="实现进入动画">
-      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="优化 toast 三种动画">
+      <change afterPath="$PROJECT_DIR$/test/toast.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="6577000" />
+      <workItem from="1639236332798" duration="6877000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1639062628649</created>
@@ -424,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639242885465</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="优化 toast 三种动画">
+      <created>1639243353271</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1639243353271</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重新安装依赖，使用 npm run test 和 npm run dev-test 自动化测试" />
     <MESSAGE value="用 TravisCI 持续集成（TravisCI收费了）" />
     <MESSAGE value="准备 publish" />
     <MESSAGE value="准备 publish 2" />
@@ -467,6 +473,7 @@
     <MESSAGE value="实现了只能有一个 toast 的功能" />
     <MESSAGE value="解决 currentToast 的一个 bug" />
     <MESSAGE value="实现进入动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现进入动画" />
+    <MESSAGE value="优化 toast 三种动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化 toast 三种动画" />
   </component>
 </project>
