@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="完成 toast 测试用例">
-      <change beforePath="$PROJECT_DIR$/test/toast.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/toast.test.js" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="修复测试代码中 click 太快引发的 error">
+      <change afterPath="$PROJECT_DIR$/src/tabs-body.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +100,7 @@
       <workItem from="1639135151831" duration="4166000" />
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
-      <workItem from="1639236332798" duration="7182000" />
-    </task>
-    <task id="LOCAL-00001" summary="npm install vue">
-      <created>1639062628649</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1639062628649</updated>
+      <workItem from="1639236332798" duration="7792000" />
     </task>
     <task id="LOCAL-00002" summary="安装 parcel">
       <created>1639065057044</created>
@@ -438,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639243703427</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="修复测试代码中 click 太快引发的 error">
+      <created>1639243825862</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1639243825863</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="准备 publish" />
     <MESSAGE value="准备 publish 2" />
     <MESSAGE value="npm publish 0.0.2" />
     <MESSAGE value="更新 README" />
@@ -481,6 +487,7 @@
     <MESSAGE value="实现进入动画" />
     <MESSAGE value="优化 toast 三种动画" />
     <MESSAGE value="完成 toast 测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 toast 测试用例" />
+    <MESSAGE value="修复测试代码中 click 太快引发的 error" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复测试代码中 click 太快引发的 error" />
   </component>
 </project>

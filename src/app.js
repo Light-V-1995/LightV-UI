@@ -12,6 +12,11 @@ import Content from './content'
 import Footer from './footer'
 import Toast from './toast'
 import plugin from './plugin'
+import Tabs from './tabs'
+import TabsHead from './tabs-head'
+import TabsBody from './tabs-body'
+import TabsItem from './tabs-item'
+import TabsPane from './tabs-pane'
 
 Vue.component('l-button',Button)
 Vue.component('l-icon', Icon)
@@ -26,6 +31,11 @@ Vue.component('l-footer', Footer)
 Vue.component('l-sider', Sider)
 Vue.component('l-toast', Toast)
 Vue.use(plugin)
+Vue.component('l-tabs', Tabs)
+Vue.component('l-tabs-head', TabsHead)
+Vue.component('l-tabs-body', TabsBody)
+Vue.component('l-tabs-item', TabsItem)
+Vue.component('l-tabs-pane', TabsPane)
 
 import createElement from 'vue'
 
@@ -34,10 +44,7 @@ const h = createElement
 new Vue({
     el:'#app',
     data:{
-        loading1: false,
-        loading2: true,
-        loading3: false,
-        message: 'hi'
+        selectedTab: 'sports'
     },
     created() {
     },
