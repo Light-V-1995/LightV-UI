@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/Light-V-1995/LightV-UI',
+  base:'/LightV-UI/',
   title: 'LightV UI',
   description: '一个好用的 UI 框架',
   themeConfig: {

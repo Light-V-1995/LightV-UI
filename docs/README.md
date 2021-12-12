@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /LightV-UI.png
+heroImage: LightV-UI.png
 heroText: LightV UI 官网
-tagline: 一个简单好用的 UI 组件库
+tagline: 一个简单好用的 UI 组件库!
 actionText: 快速上手 →
 actionLink: /install/
 features:

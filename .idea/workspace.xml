@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="写完 toast.md">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/LightV-UI.png" afterDir="false" />
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="完成静态">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/LightV-UI.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/LightV-UI.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
       <recent name="D:\jirengu\projects\lightv-ui\docs\.vuepress\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jirengu\projects\lightv-ui\docs\.vuepress\public" />
       <recent name="D:\jirengu\projects\lightv-ui\docs" />
     </key>
   </component>
@@ -108,14 +110,7 @@
       <workItem from="1639236332798" duration="16930000" />
       <workItem from="1639311587382" duration="861000" />
       <workItem from="1639312524758" duration="3334000" />
-      <workItem from="1639319294282" duration="16742000" />
-    </task>
-    <task id="LOCAL-00033" summary="初步实现响应式">
-      <created>1639199110806</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1639199110806</updated>
+      <workItem from="1639319294282" duration="19521000" />
     </task>
     <task id="LOCAL-00034" summary="设置默认样式为 phone">
       <created>1639199615094</created>
@@ -453,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639345602205</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="完成静态">
+      <created>1639349542171</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1639349542171</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tab 切换动画完成" />
     <MESSAGE value="完善tabs的样式" />
     <MESSAGE value="支持 disabled 功能" />
     <MESSAGE value="添加 tabs 部分测试用例" />
@@ -506,6 +507,7 @@
     <MESSAGE value="写完 tabs.md" />
     <MESSAGE value="写完 popvoer.md" />
     <MESSAGE value="写完 toast.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="写完 toast.md" />
+    <MESSAGE value="完成静态" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成静态" />
   </component>
 </project>
