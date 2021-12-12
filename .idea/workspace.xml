@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="终于配置好，搭建了官网 button 和 input">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="写完 tabs.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Stylus" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Karma.Button">
@@ -100,14 +97,7 @@
       <workItem from="1639236332798" duration="16930000" />
       <workItem from="1639311587382" duration="861000" />
       <workItem from="1639312524758" duration="3334000" />
-      <workItem from="1639319294282" duration="9229000" />
-    </task>
-    <task id="LOCAL-00030" summary="基本实现 row 和 col 的功能">
-      <created>1639163164149</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1639163164149</updated>
+      <workItem from="1639319294282" duration="10846000" />
     </task>
     <task id="LOCAL-00031" summary="简单重构">
       <created>1639167460301</created>
@@ -445,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639336733886</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="写完 tabs.md">
+      <created>1639339534353</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1639339534353</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删掉测试代码" />
     <MESSAGE value="增大tab item可点击区域" />
     <MESSAGE value="触发 update:selected 事件的时候添加一个 item 数据" />
     <MESSAGE value="tab 切换动画完成" />
@@ -498,6 +494,7 @@
     <MESSAGE value="可以设置默认 selected" />
     <MESSAGE value="selected 改为数组" />
     <MESSAGE value="终于配置好，搭建了官网 button 和 input" />
-    <option name="LAST_COMMIT_MESSAGE" value="终于配置好，搭建了官网 button 和 input" />
+    <MESSAGE value="写完 tabs.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="写完 tabs.md" />
   </component>
 </project>
