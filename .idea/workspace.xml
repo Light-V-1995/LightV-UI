@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="selected 改为数组">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="终于配置好，搭建了官网 button 和 input">
+      <change afterPath="$PROJECT_DIR$/src/_var.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -96,6 +102,9 @@
       <workItem from="1639140737371" duration="19780000" />
       <workItem from="1639197430784" duration="6199000" />
       <workItem from="1639236332798" duration="16930000" />
+      <workItem from="1639311587382" duration="861000" />
+      <workItem from="1639312524758" duration="3334000" />
+      <workItem from="1639319294282" duration="6480000" />
     </task>
     <task id="LOCAL-00029" summary="row 和 col 的雏形">
       <created>1639161178888</created>
@@ -446,6 +455,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -458,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tabs 可以切换了" />
     <MESSAGE value="删掉测试代码" />
     <MESSAGE value="增大tab item可点击区域" />
     <MESSAGE value="触发 update:selected 事件的时候添加一个 item 数据" />
@@ -483,6 +501,7 @@
     <MESSAGE value="添加 single 选项" />
     <MESSAGE value="可以设置默认 selected" />
     <MESSAGE value="selected 改为数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="selected 改为数组" />
+    <MESSAGE value="终于配置好，搭建了官网 button 和 input" />
+    <option name="LAST_COMMIT_MESSAGE" value="终于配置好，搭建了官网 button 和 input" />
   </component>
 </project>
