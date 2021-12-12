@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="写完 tabs.md">
+    <list default="true" id="e2de760a-dedd-4e44-b1b2-461ef8cb99e5" name="Changes" comment="写完 popvoer.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +100,7 @@
       <workItem from="1639236332798" duration="16930000" />
       <workItem from="1639311587382" duration="861000" />
       <workItem from="1639312524758" duration="3334000" />
-      <workItem from="1639319294282" duration="10846000" />
-    </task>
-    <task id="LOCAL-00031" summary="简单重构">
-      <created>1639167460301</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1639167460301</updated>
+      <workItem from="1639319294282" duration="12887000" />
     </task>
     <task id="LOCAL-00032" summary="添加 row 的 align=left/right/center 属性">
       <created>1639167715496</created>
@@ -442,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639339534353</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="写完 popvoer.md">
+      <created>1639343562091</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1639343562091</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增大tab item可点击区域" />
     <MESSAGE value="触发 update:selected 事件的时候添加一个 item 数据" />
     <MESSAGE value="tab 切换动画完成" />
     <MESSAGE value="完善tabs的样式" />
@@ -495,6 +497,7 @@
     <MESSAGE value="selected 改为数组" />
     <MESSAGE value="终于配置好，搭建了官网 button 和 input" />
     <MESSAGE value="写完 tabs.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="写完 tabs.md" />
+    <MESSAGE value="写完 popvoer.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="写完 popvoer.md" />
   </component>
 </project>

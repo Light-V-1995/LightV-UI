@@ -1,9 +1,8 @@
-import Toast from './toast'
+import Toast from './Toast'
 
 let currentToast
-
 export default {
-    install (Vue, options) {
+    install(Vue, options) {
         Vue.prototype.$toast = function (message, toastOptions) {
             if (currentToast) {
                 currentToast.close()
@@ -21,14 +20,13 @@ export default {
 }
 
 
-
-/* helpers */
-function createToast ({Vue, message, propsData, onClose}) {
+// 新建 toast 的函数
+function createToast({Vue, message, propsData, onClose}) {
     let Constructor = Vue.extend(Toast)
     let toast = new Constructor({propsData})
     toast.$slots.default = [message]
     toast.$mount()
-    toast.$on('close', onClose)
+    toast.$on('beforeClose', onClose)
     document.body.appendChild(toast.$el)
     return toast
 }

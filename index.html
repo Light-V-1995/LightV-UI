@@ -10,35 +10,9 @@
 <body>
 
 <div id="app" style="padding: 100px;">
-    <l-collapse :selected.sync="selectedTab">
-        <l-collapse-item title="标题1" name="1">内容1</l-collapse-item>
-        <l-collapse-item title="标题2" name="2">内容2</l-collapse-item>
-        <l-collapse-item title="标题3" name="3">内容3</l-collapse-item>
-    </l-collapse>
-    {{selectedTab}}
-
-    <l-button icon="settings">button</l-button>
-    <l-button :loading="true">button</l-button>
-    <hr>
-
-    <div style="overflow: hidden; padding: 10px;">
-        <l-popover position="bottom">
-            <template slot="content">
-                <div>askdjs</div>
-            </template>
-            <l-button>点我</l-button>
-        </l-popover>
-        <l-popover position="right">
-            <template slot="content">
-                <div>askdjs</div>
-            </template>
-            <l-button>点我</l-button>
-        </l-popover>
-    </div>
-
-    <hr>
-
-    <l-input class="error" disabled></l-input>
+    <button @click="showToast1">top</button>
+    <button @click="showToast2">middle</button>
+    <button @click="showToast3">bottom</button>
 </div>
 
 <script src="./src/app.js"></script>
